@@ -1,0 +1,319 @@
+*{
+  padding: 0;
+  margin: 0%;
+}
+
+.layout{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 50px;
+}
+.header{
+display: flex;
+
+}
+.middle{
+  display: block;
+  margin: auto;
+}
+.middle input{
+  border-radius: 15px 0 0 15px ;
+  padding: 7px;
+  border: 2px solid gray;
+  font-weight: bold;
+  width: 60vh;
+}
+.middle button{
+  padding: 7px;
+  border-radius: 0px 15px 15px 0px ;
+  border: 2px solid  gray;
+  font-weight: bold;
+  background-color: white;
+}
+.middle button:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+.left:hover{
+  cursor: pointer;
+}
+.sidebar{
+position:fixed;
+background-color:grey;
+color:red;
+width: 15rem;
+height: 100vh;
+padding: 10px;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border-radius: 0 10px 0 10px;
+}
+.sidebar a{
+  text-decoration: none;
+  color:red;
+}
+
+.suggest{
+  overflow-x:scroll;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.suggest p{
+ padding: 3px;
+  background-color: rgb(160, 153, 153);
+  border-radius: 5px;
+}
+.suggest p:hover{
+cursor: pointer;
+border: 1px solid;
+}
+.mostpopular{
+margin-left: 2px;
+font-weight: bold;
+width:320px;
+
+}
+.mostpopular a{
+  text-decoration: none;
+  color: black;
+}
+.mostpopular:hover{
+  cursor: pointer;
+  padding: 2px;
+  border: 2px solid red;
+  border-radius: 5px;
+  zoom: 120%;
+}
+.overall{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.title{
+word-wrap: break-word;
+}
+.title1{
+  color: rgb(73, 65, 65);
+}
+.video{
+
+  width:150vh;
+  height:100vh ;
+  border: none;
+
+}
+.sidebar2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+.listwhole{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 60vh;
+  margin-left: 35%;
+
+
+}
+.list{
+  list-style-type: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px;
+
+}
+.finalpage{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.reply{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-weight: bold;
+  
+}
+.reply p{
+  padding-left: 15px;
+  font-weight: normal;
+}
+.nandi{
+  display:flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.list:hover{
+  cursor:pointer;
+  background-color: grey;
+}
+.livechat{
+  display: flex;
+  flex-direction:column-reverse;
+  overflow-y: scroll;
+  height:75vh;
+  width:55vh;
+  margin-left: 30px;
+  padding: 10px;
+  border: 2px solid gray;
+
+}
+.texts{
+  padding-left: 10px;
+  font-weight: normal;
+}
+.unique{
+  font-weight: bold;
+  color: rgb(221, 17, 17);
+}
+.finalpage p{
+  font-weight: bold;
+}
+.container{
+  margin-top: 15px;
+}
+.endcomment{
+  margin-top: 10px;
+  display: flex;
+  background-color: rgb(206, 205, 205);
+  width: 100vh;
+}
+
+.replies{
+  margin-left: 25px;
+}
+.liveform{
+  text-align: end;
+  margin-top: 10px;
+}
+.liveform input{
+  border:none;
+  border-bottom: 2px solid;
+  width: 50vh;
+  outline: none;
+}
+.liveform button{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: bolder;
+}
+.alien{
+  display: block;
+  margin: auto;
+  width:55vh;
+
+  margin-bottom: 10px;
+  color:red;
+
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 450px){
+  .overall{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+  
+ .suggest{
+   display: none;
+ }
+ .middle input{
+  border-radius: 15px 0 0 15px ;
+  padding: 7px;
+  border: 2px solid gray;
+  font-weight: bold;
+  width: 20vh;
+}
+.middle button{
+  padding: 7px;
+  border-radius: 0px 15px 15px 0px ;
+  border: 2px solid  gray;
+  font-weight: bold;
+  background-color: white;
+}
+.middle button:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+.finalpage{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  word-wrap: break-word;
+}
+.reply{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-weight: bold;
+  
+}
+.endcomment{
+  margin-top: 10px;
+  display: flex;
+  background-color: rgb(206, 205, 205);
+  width: 35vh;
+}
+.livechat{
+  display: flex;
+  flex-direction:column-reverse;
+  overflow-y: scroll;
+  height:75vh;
+  width:35vh;
+  margin-left: 30px;
+  padding: 10px;
+  border: 2px solid gray;
+
+}
+.liveform{
+display: flex;
+margin: 20px;
+
+
+}
+.liveform input{
+  border:none;
+  border-bottom: 2px solid;
+  outline: none;
+  width: 40vh;
+}
+.liveform button{
+  
+  height: 30px;
+  border-radius: 15px;
+  font-weight: bolder;
+}
+
+.video{
+  width: 48vh;
+  height: 40vh;
+ display: flex;
+ align-items: center;
+}
+
+}
+
+
