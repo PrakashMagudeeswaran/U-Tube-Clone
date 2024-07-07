@@ -1,4 +1,4 @@
-export const GoogleAPI= import.meta.env.VITE_APP_AI;
+export const GoogleAPI= "AIzaSyD8yo4koKQv1q2rNPGLQNCmoXHSPg-gR-o";
 
 
 export const UTUBE_API='https://youtube.googleapis.com/youtube/v3/videos?part=snippet&part=contentDetails&part=statistics&chart=mostPopular&maxResults=50&regionCode=IN&key='+GoogleAPI
