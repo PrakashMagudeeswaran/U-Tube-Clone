@@ -68,7 +68,7 @@ const Header = () => {
 
       {suggestion && suggestions && (
         <div  className="listwhole">
-          {suggestions[1].map((suggest) => (
+          {suggestions[1]?.map((suggest) => (
             <li
               key={suggest}
               onClick={() => handleSuggestionClick(suggest)}
